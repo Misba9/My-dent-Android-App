@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "mydent",
+    "slug": "mydent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://i.ibb.co/ZRHLLpxQ/logo.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.satyam786.mydent"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.satyam786.mydent"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "entryPoint": "./App.tsx",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6c5ab38f-f574-4592-855a-e9f44fdd3ecd"
+      }
+    },
+    "owner": "satyam786"
+  }
+}
